@@ -13,7 +13,7 @@ Project - Mata Kuliah Pemrograman Web
 ---
 ## *How To Run*
 1. Download as Folder 'Expense Tracker'
-2. Open 'Library' folder then on search bar type 'cmd' and enter
+2. Open 'Expense Tracker' folder then on search bar type 'cmd' and enter
 3. In command prompt type 'code .' then enter
 4. In VScode add 2 new terminal
 5. One terminal type 'npm run dev' then run and the other terminal type 'node backend/server.js' then run
