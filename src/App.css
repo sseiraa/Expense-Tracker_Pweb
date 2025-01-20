@@ -1,0 +1,202 @@
+body {
+  background-image: url('./assets/components/Bg3.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+form {
+  margin: 1rem 0;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.HeaderText {
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.form-group {
+  display: flex; /* Ubah ke flex untuk label dan input sejajar */
+  flex-direction: column; /* Atur arah flex menjadi horizontal */
+  align-items: left;
+  gap: 10px;
+  margin-right: 70px;
+}
+
+.form-group label {
+  width: auto;
+  color: #333;
+}
+
+.form-group input {
+  width: 259px;
+  padding: 6px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px; /* Sudut yang lebih melengkung */
+}
+
+.form-group label {
+  width: auto;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-group button {
+  position: center;
+  width: auto;
+  background-color: #015592; /* Warna tombol kembali */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.input-kategori{
+  width: 165px;
+  padding: 3px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  align-items: center;
+  gap: 10px;
+  margin-right: 70px;
+  margin-bottom: 0px;
+}
+
+.input-sumberdana{
+  width: 165px;
+  padding: 3px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  gap: 10px;
+  margin-right: 75px;
+  margin-top: 0px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  width: 80%;
+  margin: 75px; /* Pusatkan kontainer di halaman */
+  position: center;
+  top: 20%;
+  justify-content: center; /* Pusatkan item dalam kontainer */
+  align-items: center;
+  flex-direction: column;
+  color: #f9f9f9;
+}
+
+.table th, td {
+  padding: 10px;
+  border: 1px solid #333;
+  font-size: 14px;
+}
+.table th {
+  background-color: #0a66c2;
+  text-align: center;
+}
+
+.table tbody tr {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.btn-page {
+  background-color: #015592; /* Warna tombol kembali */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  margin: 100px;
+  margin-top: 15px;
+}
+
+.btn-u, .btn-d {
+  background-color: #015592; /* Warna tombol kembali */
+  color: white;
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+.header2 {
+  color: black;
+}
+
+.labelLaporan {
+  color: black;
+  font-weight: bold;
+}
